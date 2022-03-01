@@ -1,0 +1,83 @@
+<!--Section that defines this as an HTML website. NEVER START A WEB PAGE WITHOUT THIS-->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!--This defines the Title of the website, like what shows up on the Tab of the page. This is also where you link
+your CSS, always make sure to connect that-->
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Evan Kuck Portfolio</title>
+</head>
+
+<!--Always put the actual content of your website within a Body tag to distinguish it from the top of the website,
+and therefore the stuff you'll be interacting with-->
+<body>
+    <!--Navigation bar, for people to go to different sections of THIS page-->
+    <div class="topnav">
+    <nav id="navbar">
+        <!--This currently isn't in a listed order (<li>), making the list out of order on the page. Fix later-->
+        <ul>
+                <a id="link1" class="nav-link" href="#about-me-section">About</a>
+                <a id="link1" class="nav-link" href="#projects">My Projects</a>
+                <a id="link1" class="nav-link" href="#contact-section">Contact</a>
+        </ul>
+    </nav>
+    </div>
+
+    <!--Personal Introduction section-->
+    <section id="welcome-section">
+    <div class="welcome-text">
+        <h1>Hello! I'm Evan Kuck</h1>
+        <h2>Full Stack Web Developer (in training)</h2>
+    </div>
+    </section>
+
+    <!--Profile Picture section. Currently not pretty, but you can work on the details as you go on-->
+    <section id="Profile Picture">
+        <img src="./assets/images/profile.jpg" class="profile" alt="Picture of Evan Kuck, the web developer for this portfolio page"/>
+    </section>
+
+    <!--About me section. Update with better descriptions of yourself as you go on-->
+    <section id="about-me-section">
+        <p>
+            I am currently enrolled at Michigan State University, in the Full Stack Web Development program. I hope
+            to one day become a Quaity Assurance Engineer or Full Stack Developer. 
+        </p>
+        <br>
+        <p>
+            My previous experience includes my previous college experience at DePaul University. I studied Psychology,
+            with a focus in Human Development. I also have multiple years of experience in the Exchange Student business,
+            having worked at the Council for Educational Travel as a Medical Liaison.
+        </p>
+        <br>
+        <p>
+            I am also the Chair for the Community Involvement Committee, a subcommittee of the organization Grand 
+            Rapids Young Professionals. There, we work to improve the professional outreach of post-graduates
+            in Grand Rapids MI area through networking, professional instruction, and socializing.
+        </p>
+    </section>
+
+    <!--Links to your previously done work. We'll start with CodePen and add MSU as we go-->
+    <section id="projects">
+    <div class="projects">
+        <div><a class="project-tile" href="https://codepen.io/evankuck/pen/yLVmjyj" target="_blank">Landing Page Project</a></div>
+        <div><a class="project-tile" href="https://codepen.io/evankuck/pen/JjKmdvv" target="_blank">Survey Form Project</a></div>
+    </div>
+    </section>
+
+    <section id="projects">
+    <div class="projects">
+        <div><a class="project-tile" href="https://codepen.io/evankuck/pen/zYBRgey" target="_blank">Moby-Duck</a></div>
+    </div>
+    </section>
+
+    <!--Links to my other pages-->
+    <section id="contact-section">
+    <div class="contact-section" id="contact">
+        <h1>My Contact Info</h1>
+        <h2><a id="profile-link" href="https://codepen.io/evankuck" target="_blank">Codepen Profile</a></h2>
+        <h2><a id="profile-link" href="https://www.linkedin.com/in/evan-kuck-b84a1244/" target="_blank">Linkedin</a></h2>
+    </div>
+    </section>
+</body>
